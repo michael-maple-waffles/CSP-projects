@@ -27,10 +27,15 @@ int main(void) {
     printf("your expenses are:$%.2f\n", total_expenses);
     printf("your savings are:$%.2f\n", savings);
     printf("your total leaft to spend is:$%.2f\n", total);
-    printf("your rent is %.2f",prent, "of your income");
-    printf("your utilities is %.2f",putilities, "of your income");
-    printf("your groceries are %.2f",pgroceries, "of your income");
-    printf("your transportation is %.2f",ptransportation, "of your income");
-    printf("your expenses are %.2f",pexpenses, "of your income");
+    printf("your rent is  %.2f", prent);
+    printf("%% of your total income\n");
+    printf("your utilities is %.2f",putilities );
+    printf("%% of your total income\n");
+    printf("your groceries are %.2f",pgroceries);
+    printf("%% of your total income\n");
+    printf("your transportation is %.2f",ptransportation);
+    printf("%% of your total income\n");
+    printf("your expenses are %.2f",pexpenses);
+    printf("%% of your total income");
     return 0;
 }
