@@ -7,10 +7,10 @@ transportation = int(input("how much is transportation?:"))
 expenses = rent + utilities + groceries + transportation
 savings = income * .2
 afterExpenses = income - expenses - savings
-prent = rent / income * 10
-putilities = utilities / income * 10
-pgroceries = groceries / income * 10
-ptransportation = transportation / income * 10
+prent = rent / income * 100
+putilities = utilities / income * 100
+pgroceries = groceries / income * 100
+ptransportation = transportation / income * 100
 
 print("you spend " ,expenses)
 print("you make " ,afterExpenses)
