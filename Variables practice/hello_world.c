@@ -2,16 +2,14 @@
 //make a asking function.
 char name[20];
 void nameAsk(char blank[]){
-    printf("\nWhat is your name: ");
-    scanf("%s",blank);
-    printf("Hello %s\n", blank);
+    printf("\nHello %s", blank);
 }
 
 int main(void) {
-    nameAsk(name);
-    nameAsk(name);
-    nameAsk(name);
-    nameAsk(name);
-    nameAsk(name);
+    nameAsk("Bob?");
+    nameAsk("Sheniqua");
+    nameAsk("Bonquiqua");
+    nameAsk("Lequiqua");
+    nameAsk("Daquiqua\n");
     return 0;
 }
