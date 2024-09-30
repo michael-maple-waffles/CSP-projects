@@ -4,7 +4,7 @@ def runName():
     nameAsk()
     check = input("would you like to input a different name\n if so press y: ").strip().lower()
     if check == "y":
-        nameAsk()
+        runName()
     else:
-        runName
+        print("thats to bad :(")
 runName()
